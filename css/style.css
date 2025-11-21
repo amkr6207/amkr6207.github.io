@@ -7,9 +7,55 @@ body {
   background-color: #f9f9f9;
   color: #333;
 }
-h1 { color: #2c3e50; }
-h2 { color: #34495e; margin-top: 30px; }
-a { color: #2980b9; text-decoration: none; }
-a:hover { text-decoration: underline; }
-ul { margin-left: 20px; }
-.highlight { color: #e67e22; font-weight: bold; }
+
+h1 { 
+  color: #2c3e50; 
+}
+
+h2 { 
+  color: #34495e; 
+  margin-top: 30px; 
+}
+
+a { 
+  color: #2980b9; 
+  text-decoration: none; 
+}
+
+a:hover { 
+  text-decoration: underline; 
+}
+
+ul { 
+  margin-left: 20px; 
+}
+
+.highlight { 
+  color: #e67e22; 
+  font-weight: bold; 
+}
+
+/* NEW: Icon styling */
+.social-icons {
+  margin-top: 15px;
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons a {
+  display: inline-flex;
+  width: 32px;
+  height: 32px;
+}
+
+.social-icons svg {
+  width: 32px;
+  height: 32px;
+  fill: #333;
+  transition: 0.2s;
+}
+
+.social-icons a:hover svg {
+  fill: #e67e22;
+}
+
