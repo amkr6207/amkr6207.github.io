@@ -132,7 +132,8 @@ a {
     height: 100vh;
     display: flex;
     align-items: center;
-    padding-top: 80px; /* Offset for navbar */
+    padding-top: 80px;
+    /* Offset for navbar */
     position: relative;
     overflow: hidden;
 }
@@ -144,7 +145,7 @@ a {
     right: -10%;
     width: 600px;
     height: 600px;
-    background: radial-gradient(circle, rgba(0, 212, 255, 0.1) 0%, rgba(0,0,0,0) 70%);
+    background: radial-gradient(circle, rgba(0, 212, 255, 0.1) 0%, rgba(0, 0, 0, 0) 70%);
     border-radius: 50%;
     z-index: -1;
 }
@@ -404,6 +405,7 @@ footer {
         opacity: 0;
         transform: translateY(20px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -415,6 +417,7 @@ footer {
         opacity: 0;
         transform: translateX(20px);
     }
+
     to {
         opacity: 1;
         transform: translateX(0);
@@ -435,9 +438,11 @@ footer {
     }
 
     .hero-content {
-        flex-direction: column-reverse; /* Image on top usually better, but let's do text first for portfolio on mobile? */
+        flex-direction: column-reverse;
+        /* Image on top usually better, but let's do text first for portfolio on mobile? */
         text-align: center;
     }
+
     /* Let's actually put image on top for mobile */
     .hero-content {
         flex-direction: column-reverse;
@@ -456,18 +461,19 @@ footer {
     }
 
     .nav-links {
-        display: none; /* ideally a hamburger menu, but for now simple hide on mobile */
+        display: none;
+        /* ideally a hamburger menu, but for now simple hide on mobile */
     }
-    
+
     /* Simple mobile nav alternative for this MVP */
     .navbar .container {
         justify-content: center;
     }
-    
+
     .nav-links {
         display: none;
     }
-    
+
     .logo {
         text-align: center;
     }
