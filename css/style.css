@@ -32,7 +32,6 @@ h1 {
 
 .subheading {
   font-family: 'Lato', sans-serif;
-  text-transform: uppercase;
   font-weight: 500;
   font-size: 1.35rem;
   color: var(--bs-secondary);
